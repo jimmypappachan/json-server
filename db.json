@@ -111,5 +111,70 @@
       "last_name": "Pappachan",
       "avatar": "https://i.pravatar.cc/150?img=13"
     }
+  ],
+  "inactive_users": [
+    {
+      "id":21,
+      "email": "Jorge.bluth@reqres.in",
+      "first_name": "Jorge",
+      "last_name": "Bluth",
+      "avatar": "https://i.pravatar.cc/150?img=21"
+    },
+    {
+      "id": 22,
+      "email": "lanet.weaver@reqres.in",
+      "first_name": "lanet",
+      "last_name": "Weaver",
+      "avatar": "https://i.pravatar.cc/150?img=22"
+    },
+    {
+      "id": 23,
+      "email": "emma.wong@reqres.in",
+      "first_name": "Emma",
+      "last_name": "Wong",
+      "avatar": "https://i.pravatar.cc/150?img=23"
+    },
+    {
+      "id": 24,
+      "email": "Steve.holt@reqres.in",
+      "first_name": "Steve",
+      "last_name": "Holt",
+      "avatar": "https://i.pravatar.cc/150?img=24"
+    },
+    {
+      "id": 25,
+      "email": "prince.morris@reqres.in",
+      "first_name": "Prince",
+      "last_name": "Morris",
+      "avatar": "https://i.pravatar.cc/150?img=25"
+    },
+    {
+      "id": 26,
+      "email": "Sergio.ramos@reqres.in",
+      "first_name": "Sergio",
+      "last_name": "Ramos",
+      "avatar": "https://i.pravatar.cc/150?img=26"
+    },
+    {
+      "id": 27,
+      "email": "michael.lawson@reqres.in",
+      "first_name": "Michael",
+      "last_name": "Lawson",
+      "avatar": "https://i.pravatar.cc/150?img=27"
+    },
+    {
+      "id": 28,
+      "email": "Fermison.ferguson@reqres.in",
+      "first_name": "Fermison",
+      "last_name": "Ferguson",
+      "avatar": "https://i.pravatar.cc/150?img=28"
+    },
+    {
+      "id": 29,
+      "email": "Mike.funke@reqres.in",
+      "first_name": "Mike",
+      "last_name": "Funke",
+      "avatar": "https://i.pravatar.cc/150?img=29"
+    }
   ]
 }
