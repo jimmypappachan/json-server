@@ -1,9 +1,22 @@
 {
-   "contacts": [
-     { id :1 ,
-      name:"Jimmy Pappachan",
-      phone:7356693491,
-      email:"jimmy3728@gmail.com"
-     }
-   ]
+  "contacts": [
+    {
+      "id": "93d61c35-3886-48e5-b6e5-d4df0c616e24",
+      "name": "Jimmy Pappachan",
+      "phone": "7356693490",
+      "email": "jimmy3728@gmail.com"
+    },
+    {
+      "id": "35765a92-e50d-4e2f-996a-97bda1b61b7a",
+      "name": "Jimmy Pappachan",
+      "phone": "7356693491",
+      "email": "jimmy3728@gmail.com"
+    },
+    {
+      "id": "3b968a23-986b-4b76-9fb2-03b615496cf7",
+      "name": "Jimmy Pappachan",
+      "phone": "7356693491",
+      "email": "hgyjgb@jknjnk.gjh"
+    }
+  ]
 }
