@@ -19,7 +19,7 @@
                         "email": "hgyjgb@jknjnk.gjh"
                     }
     ],
-        "data":[
+        "users":[
                     {"id":1,"email":"george.bluth@reqres.in",
                         "first_name":"George",
                         "last_name":"Bluth",
