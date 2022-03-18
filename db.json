@@ -103,6 +103,13 @@
       "first_name": "Rachel",
       "last_name": "Howell",
       "avatar": "https://i.pravatar.cc/150?img=12"
+    },
+    {
+      "id": 13,
+      "email": "jimmypappachan@outlook.com",
+      "first_name": "Jimmy",
+      "last_name": "Pappachan",
+      "avatar": "https://i.pravatar.cc/150?img=13"
     }
   ]
 }
