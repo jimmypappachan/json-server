@@ -176,5 +176,35 @@
       "last_name": "Funke",
       "avatar": "https://i.pravatar.cc/150?img=31"
     }
+  ],
+  data : [
+    {
+    "name": "January",
+    "InActive Users": 4,
+    "Active Users": 2,
+    "Total Users": 6,
+    
+    },
+    {
+    "name": "February",
+    "InActive Users": 3,
+    "Active Users": 1,
+    "Total Users": 4,
+    
+    },
+    {
+    "name": "March",
+    "InActive Users": 2,
+    "Active Users": 9,
+    "Total Users": 11,
+    
+    },
+    {
+    "name": "April",
+    "InActive Users": 2,
+    "Active Users": 8,
+    "Total Users": 10,
+    
+    }
   ]
 }
