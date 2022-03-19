@@ -201,6 +201,12 @@
 			"InActive Users": 2,
 			"Active Users": 8,
 			"Total Users": 10
+		},
+		{
+			"name": "May",
+			"InActive Users": 1,
+			"Active Users": 10,
+			"Total Users": 11
 		}
 	]
 }
