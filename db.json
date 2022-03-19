@@ -177,7 +177,7 @@
       "avatar": "https://i.pravatar.cc/150?img=31"
     }
   ],
-  data : [
+  "data" : [
     {
     "name": "January",
     "InActive Users": 4,
