@@ -1,287 +1,278 @@
 {
-	"contacts": [{
-			"id": "93d61c35-3886-48e5-b6e5-d4df0c616e24",
-			"name": "Jimmy Pappachan",
-			"phone": "7356693490",
-			"email": "jimmy3728@gmail.com"
-		},
-		{
-			"id": "35765a92-e50d-4e2f-996a-97bda1b61b7a",
-			"name": "Jimmy Pappachan",
-			"phone": "7356693491",
-			"email": "jimmy3728@gmail.com"
-		},
-		{
-			"id": "3b968a23-986b-4b76-9fb2-03b615496cf7",
-			"name": "Jimmy Pappachan",
-			"phone": "7356693491",
-			"email": "hgyjgb@jknjnk.gjh"
-		}
-	],
-	"active_users": [{
-			"id": 1,
-			"email": "george.bluth@reqres.in",
-			"first_name": "George",
-			"last_name": "Bluth",
-			"avatar": "https://i.pravatar.cc/150?img=1"
-		},
-		{
-			"id": 2,
-			"email": "janet.weaver@reqres.in",
-			"first_name": "Janet",
-			"last_name": "Weaver",
-			"avatar": "https://i.pravatar.cc/150?img=2"
-		},
-		{
-			"id": 3,
-			"email": "emma.wong@reqres.in",
-			"first_name": "Emma",
-			"last_name": "Wong",
-			"avatar": "https://i.pravatar.cc/150?img=3"
-		},
-		{
-			"id": 4,
-			"email": "eve.holt@reqres.in",
-			"first_name": "Eve",
-			"last_name": "Holt",
-			"avatar": "https://i.pravatar.cc/150?img=4"
-		},
-		{
-			"id": 5,
-			"email": "charles.morris@reqres.in",
-			"first_name": "Charles",
-			"last_name": "Morris",
-			"avatar": "https://i.pravatar.cc/150?img=5"
-		},
-		{
-			"id": 6,
-			"email": "tracey.ramos@reqres.in",
-			"first_name": "Tracey",
-			"last_name": "Ramos",
-			"avatar": "https://i.pravatar.cc/150?img=6"
-		},
-		{
-			"id": 7,
-			"email": "michael.lawson@reqres.in",
-			"first_name": "Michael",
-			"last_name": "Lawson",
-			"avatar": "https://i.pravatar.cc/150?img=7"
-		},
-		{
-			"id": 8,
-			"email": "lindsay.ferguson@reqres.in",
-			"first_name": "Lindsay",
-			"last_name": "Ferguson",
-			"avatar": "https://i.pravatar.cc/150?img=8"
-		},
-		{
-			"id": 9,
-			"email": "tobias.funke@reqres.in",
-			"first_name": "Tobias",
-			"last_name": "Funke",
-			"avatar": "https://i.pravatar.cc/150?img=9"
-		},
-		{
-			"id": 10,
-			"email": "byron.fields@reqres.in",
-			"first_name": "Byron",
-			"last_name": "Fields",
-			"avatar": "https://i.pravatar.cc/150?img=10"
-		},
-		{
-			"id": 11,
-			"email": "george.edwards@reqres.in",
-			"first_name": "George",
-			"last_name": "Edwards",
-			"avatar": "https://i.pravatar.cc/150?img=11"
-		},
-		{
-			"id": 12,
-			"email": "rachel.howell@reqres.in",
-			"first_name": "Rachel",
-			"last_name": "Howell",
-			"avatar": "https://i.pravatar.cc/150?img=12"
-		},
-		{
-			"id": 13,
-			"email": "jimmypappachan@outlook.com",
-			"first_name": "Jimmy",
-			"last_name": "Pappachan",
-			"avatar": "https://i.pravatar.cc/150?img=13"
-		}
-	],
-	"inactive_users": [{
-			"id": 21,
-			"email": "Jorge.bluth@reqres.in",
-			"first_name": "Jorge",
-			"last_name": "Bluth",
-			"avatar": "https://i.pravatar.cc/150?img=21"
-		},
-		{
-			"id": 22,
-			"email": "lanet.weaver@reqres.in",
-			"first_name": "lanet",
-			"last_name": "Weaver",
-			"avatar": "https://i.pravatar.cc/150?img=22"
-		},
-		{
-			"id": 23,
-			"email": "emma.wong@reqres.in",
-			"first_name": "Emma",
-			"last_name": "Wong",
-			"avatar": "https://i.pravatar.cc/150?img=23"
-		},
-		{
-			"id": 24,
-			"email": "Steve.holt@reqres.in",
-			"first_name": "Steve",
-			"last_name": "Holt",
-			"avatar": "https://i.pravatar.cc/150?img=24"
-		},
-		{
-			"id": 25,
-			"email": "prince.morris@reqres.in",
-			"first_name": "Prince",
-			"last_name": "Morris",
-			"avatar": "https://i.pravatar.cc/150?img=25"
-		},
-		{
-			"id": 26,
-			"email": "Sergio.ramos@reqres.in",
-			"first_name": "Sergio",
-			"last_name": "Ramos",
-			"avatar": "https://i.pravatar.cc/150?img=26"
-		},
-		{
-			"id": 27,
-			"email": "michael.lawson@reqres.in",
-			"first_name": "Michael",
-			"last_name": "Lawson",
-			"avatar": "https://i.pravatar.cc/150?img=27"
-		},
-		{
-			"id": 28,
-			"email": "Fermison.ferguson@reqres.in",
-			"first_name": "Fermison",
-			"last_name": "Ferguson",
-			"avatar": "https://i.pravatar.cc/150?img=28"
-		},
-		{
-			"id": 31,
-			"email": "Mike.funke@reqres.in",
-			"first_name": "Mike",
-			"last_name": "Funke",
-			"avatar": "https://i.pravatar.cc/150?img=31"
-		}
-	],
-	"data": [
-      {
-			"name": "January",
-			"InActive Users": 4,
-			"Active Users": 3,
-			"Total Users": 7
-
-		},
-		{
-			"name": "February",
-			"InActive Users": 3,
-			"Active Users": 1,
-			"Total Users": 4
-
-		},
-		{
-			"name": "March",
-			"InActive Users": 2,
-			"Active Users": 9,
-			"Total Users": 11
-
-		},
-		{
-			"name": "April",
-			"InActive Users": 2,
-			"Active Users": 8,
-			"Total Users": 10
-		},
-		{
-			"name": "May",
-			"InActive Users": 1,
-			"Active Users": 10,
-			"Total Users": 11
-		}
-	],
-	"reviews":[
-	    {
-	        
-			"first_name": "Emma",
-			"last_name": "Wong",
-			"avatar": "https://i.pravatar.cc/150?img=3",
-		    	"review_title":"Test Review",
-		    	"review_text": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Unde soluta omnis reprehenderit!"
-	        
-	    },
-	    {
-	        
-			"first_name": "John",
-			"last_name": "Strong",
-			"avatar": "https://i.pravatar.cc/150?img=5",
-		    	"review_title":"Test Review",
-		    	"review_text": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Unde soluta omnis reprehenderit!"
-	        
-	    },
-	    {
-	        
-			"first_name": "Willi",
-			"last_name": "Wong",
-			"avatar": "https://i.pravatar.cc/150?img=4",
-		    	"review_title":"Test Review",
-		    	"review_text": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Unde soluta omnis reprehenderit!"
-	        
-	    },
-	    {
-	        
-			"first_name": "James",
-			"last_name": "Jamieson",
-			"avatar": "https://i.pravatar.cc/150?img=14",
-		    	"review_title":"Test Review",
-		    	"review_text": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Unde soluta omnis reprehenderit!"
-	        
-	    },
-	    {
-	        
-			"first_name": "Sherian",
-			"last_name": "Willian",
-			"avatar": "https://i.pravatar.cc/150?img=19",
-		    	"review_title":"Test Review",
-		    	"review_text": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Unde soluta omnis reprehenderit!"
-	        
-	    },
-	    {
-	       
-			"first_name": "Johns",
-			"last_name": "Adam",
-			"avatar": "https://i.pravatar.cc/150?img=9",
-		    	"review_title":"Test Review",
-		    	"review_text": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Unde soluta omnis reprehenderit!"
-	        
-	    },
-	    {
-	        
-			"first_name": "David",
-			"last_name": "Mark",
-			"avatar": "https://i.pravatar.cc/150?img=23",
-		    	"review_title":"Test Review",
-		    	"review_text": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Unde soluta omnis reprehenderit!"
-	        
-	    },
-	    {
-	       
-			"first_name": "Marsh",
-			"last_name": "Wale",
-			"avatar": "https://i.pravatar.cc/150?img=15",
-		    	"review_title":"Test Review",
-		    	"review_text": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Unde soluta omnis reprehenderit!"
-	        
-	    }
-	    
-	    ]
+  "contacts": [
+    {
+      "id": "93d61c35-3886-48e5-b6e5-d4df0c616e24",
+      "name": "Jimmy Pappachan",
+      "phone": "7356693490",
+      "email": "jimmy3728@gmail.com"
+    },
+    {
+      "id": "35765a92-e50d-4e2f-996a-97bda1b61b7a",
+      "name": "Jimmy Pappachan",
+      "phone": "7356693491",
+      "email": "jimmy3728@gmail.com"
+    },
+    {
+      "id": "3b968a23-986b-4b76-9fb2-03b615496cf7",
+      "name": "Jimmy Pappachan",
+      "phone": "7356693491",
+      "email": "hgyjgb@jknjnk.gjh"
+    }
+  ],
+  "active_users": [
+    {
+      "id": 1,
+      "email": "george.bluth@reqres.in",
+      "first_name": "George",
+      "last_name": "Bluth",
+      "avatar": "https://i.pravatar.cc/150?img=1"
+    },
+    {
+      "id": 2,
+      "email": "janet.weaver@reqres.in",
+      "first_name": "Janet",
+      "last_name": "Weaver",
+      "avatar": "https://i.pravatar.cc/150?img=2"
+    },
+    {
+      "id": 3,
+      "email": "emma.wong@reqres.in",
+      "first_name": "Emma",
+      "last_name": "Wong",
+      "avatar": "https://i.pravatar.cc/150?img=3"
+    },
+    {
+      "id": 4,
+      "email": "eve.holt@reqres.in",
+      "first_name": "Eve",
+      "last_name": "Holt",
+      "avatar": "https://i.pravatar.cc/150?img=4"
+    },
+    {
+      "id": 5,
+      "email": "charles.morris@reqres.in",
+      "first_name": "Charles",
+      "last_name": "Morris",
+      "avatar": "https://i.pravatar.cc/150?img=5"
+    },
+    {
+      "id": 6,
+      "email": "tracey.ramos@reqres.in",
+      "first_name": "Tracey",
+      "last_name": "Ramos",
+      "avatar": "https://i.pravatar.cc/150?img=6"
+    },
+    {
+      "id": 7,
+      "email": "michael.lawson@reqres.in",
+      "first_name": "Michael",
+      "last_name": "Lawson",
+      "avatar": "https://i.pravatar.cc/150?img=7"
+    },
+    {
+      "id": 8,
+      "email": "lindsay.ferguson@reqres.in",
+      "first_name": "Lindsay",
+      "last_name": "Ferguson",
+      "avatar": "https://i.pravatar.cc/150?img=8"
+    },
+    {
+      "id": 9,
+      "email": "tobias.funke@reqres.in",
+      "first_name": "Tobias",
+      "last_name": "Funke",
+      "avatar": "https://i.pravatar.cc/150?img=9"
+    },
+    {
+      "id": 10,
+      "email": "byron.fields@reqres.in",
+      "first_name": "Byron",
+      "last_name": "Fields",
+      "avatar": "https://i.pravatar.cc/150?img=10"
+    },
+    {
+      "id": 11,
+      "email": "george.edwards@reqres.in",
+      "first_name": "George",
+      "last_name": "Edwards",
+      "avatar": "https://i.pravatar.cc/150?img=11"
+    },
+    {
+      "id": 12,
+      "email": "rachel.howell@reqres.in",
+      "first_name": "Rachel",
+      "last_name": "Howell",
+      "avatar": "https://i.pravatar.cc/150?img=12"
+    },
+    {
+      "id": 13,
+      "email": "jimmypappachan@outlook.com",
+      "first_name": "Jimmy",
+      "last_name": "Pappachan",
+      "avatar": "https://i.pravatar.cc/150?img=13"
+    }
+  ],
+  "inactive_users": [
+    {
+      "id": 21,
+      "email": "Jorge.bluth@reqres.in",
+      "first_name": "Jorge",
+      "last_name": "Bluth",
+      "avatar": "https://i.pravatar.cc/150?img=21"
+    },
+    {
+      "id": 22,
+      "email": "lanet.weaver@reqres.in",
+      "first_name": "lanet",
+      "last_name": "Weaver",
+      "avatar": "https://i.pravatar.cc/150?img=22"
+    },
+    {
+      "id": 23,
+      "email": "emma.wong@reqres.in",
+      "first_name": "Emma",
+      "last_name": "Wong",
+      "avatar": "https://i.pravatar.cc/150?img=23"
+    },
+    {
+      "id": 24,
+      "email": "Steve.holt@reqres.in",
+      "first_name": "Steve",
+      "last_name": "Holt",
+      "avatar": "https://i.pravatar.cc/150?img=24"
+    },
+    {
+      "id": 25,
+      "email": "prince.morris@reqres.in",
+      "first_name": "Prince",
+      "last_name": "Morris",
+      "avatar": "https://i.pravatar.cc/150?img=25"
+    },
+    {
+      "id": 26,
+      "email": "Sergio.ramos@reqres.in",
+      "first_name": "Sergio",
+      "last_name": "Ramos",
+      "avatar": "https://i.pravatar.cc/150?img=26"
+    },
+    {
+      "id": 27,
+      "email": "michael.lawson@reqres.in",
+      "first_name": "Michael",
+      "last_name": "Lawson",
+      "avatar": "https://i.pravatar.cc/150?img=27"
+    },
+    {
+      "id": 28,
+      "email": "Fermison.ferguson@reqres.in",
+      "first_name": "Fermison",
+      "last_name": "Ferguson",
+      "avatar": "https://i.pravatar.cc/150?img=28"
+    },
+    {
+      "id": 31,
+      "email": "Mike.funke@reqres.in",
+      "first_name": "Mike",
+      "last_name": "Funke",
+      "avatar": "https://i.pravatar.cc/150?img=31"
+    }
+  ],
+  "data": [
+    {
+      "name": "January",
+      "InActive Users": 4,
+      "Active Users": 3,
+      "Total Users": 7
+    },
+    {
+      "name": "February",
+      "InActive Users": 3,
+      "Active Users": 1,
+      "Total Users": 4
+    },
+    {
+      "name": "March",
+      "InActive Users": 2,
+      "Active Users": 9,
+      "Total Users": 11
+    },
+    {
+      "name": "April",
+      "InActive Users": 2,
+      "Active Users": 8,
+      "Total Users": 10
+    },
+    {
+      "name": "May",
+      "InActive Users": 1,
+      "Active Users": 10,
+      "Total Users": 11
+    }
+  ],
+  "reviews": [
+    {
+      "first_name": "Emma",
+      "last_name": "Wong",
+      "avatar": "https://i.pravatar.cc/150?img=3",
+      "review_title": "Test Review",
+      "review_text": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Unde soluta omnis reprehenderit!",
+      "stars":"5"
+    },
+    {
+      "first_name": "John",
+      "last_name": "Strong",
+      "avatar": "https://i.pravatar.cc/150?img=5",
+      "review_title": "Test Review",
+      "review_text": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Unde soluta omnis reprehenderit!",
+      "stars":"2"
+    },
+    {
+      "first_name": "Willi",
+      "last_name": "Wong",
+      "avatar": "https://i.pravatar.cc/150?img=4",
+      "review_title": "Test Review",
+      "review_text": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Unde soluta omnis reprehenderit!",
+      "stars":"5"
+    },
+    {
+      "first_name": "James",
+      "last_name": "Jamieson",
+      "avatar": "https://i.pravatar.cc/150?img=14",
+      "review_title": "Test Review",
+      "review_text": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Unde soluta omnis reprehenderit!",
+      "stars":"3"
+    },
+    {
+      "first_name": "Sherian",
+      "last_name": "Willian",
+      "avatar": "https://i.pravatar.cc/150?img=19",
+      "review_title": "Test Review",
+      "review_text": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Unde soluta omnis reprehenderit!",
+      "stars":"4"
+    },
+    {
+      "first_name": "Johns",
+      "last_name": "Adam",
+      "avatar": "https://i.pravatar.cc/150?img=9",
+      "review_title": "Test Review",
+      "review_text": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Unde soluta omnis reprehenderit!",
+      "stars":"5"
+    },
+    {
+      "first_name": "David",
+      "last_name": "Mark",
+      "avatar": "https://i.pravatar.cc/150?img=23",
+      "review_title": "Test Review",
+      "review_text": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Unde soluta omnis reprehenderit!",
+      "stars":"4"
+    },
+    {
+      "first_name": "Marsh",
+      "last_name": "Wale",
+      "avatar": "https://i.pravatar.cc/150?img=15",
+      "review_title": "Test Review",
+      "review_text": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Unde soluta omnis reprehenderit!",
+      "stars":"4"
+    }
+  ]
 }
