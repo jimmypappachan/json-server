@@ -260,7 +260,8 @@
 			"first_name": "Johns",
 			"last_name": "Adam",
 			"avatar": "https://i.pravatar.cc/150?img=9",
-		    	"review":"Test Review"
+		    	"review_title":"Test Review",
+		    	"review_text": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Unde soluta omnis reprehenderit!"
 	        
 	    },
 	    {
