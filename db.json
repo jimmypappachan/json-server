@@ -215,7 +215,8 @@
 			"first_name": "Emma",
 			"last_name": "Wong",
 			"avatar": "https://i.pravatar.cc/150?img=3",
-		    	"review":"Test Review"
+		    	"review_title":"Test Review",
+		    	"review_text": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Unde soluta omnis reprehenderit!"
 	        
 	    },
 	    {
@@ -223,7 +224,8 @@
 			"first_name": "John",
 			"last_name": "Strong",
 			"avatar": "https://i.pravatar.cc/150?img=5",
-		    	"review":"Test Review"
+		    	"review_title":"Test Review",
+		    	"review_text": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Unde soluta omnis reprehenderit!"
 	        
 	    },
 	    {
@@ -231,7 +233,8 @@
 			"first_name": "Willi",
 			"last_name": "Wong",
 			"avatar": "https://i.pravatar.cc/150?img=4",
-		    	"review":"Test Review"
+		    	"review_title":"Test Review",
+		    	"review_text": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Unde soluta omnis reprehenderit!"
 	        
 	    },
 	    {
@@ -239,7 +242,8 @@
 			"first_name": "James",
 			"last_name": "Jamieson",
 			"avatar": "https://i.pravatar.cc/150?img=14",
-		    	"review":"Test Review"
+		    	"review_title":"Test Review",
+		    	"review_text": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Unde soluta omnis reprehenderit!"
 	        
 	    },
 	    {
@@ -247,7 +251,8 @@
 			"first_name": "Sherian",
 			"last_name": "Willian",
 			"avatar": "https://i.pravatar.cc/150?img=19",
-		    	"review":"Test Review"
+		    	"review_title":"Test Review",
+		    	"review_text": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Unde soluta omnis reprehenderit!"
 	        
 	    },
 	    {
@@ -263,7 +268,8 @@
 			"first_name": "David",
 			"last_name": "Mark",
 			"avatar": "https://i.pravatar.cc/150?img=23",
-		    	"review":"Test Review"
+		    	"review_title":"Test Review",
+		    	"review_text": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Unde soluta omnis reprehenderit!"
 	        
 	    },
 	    {
@@ -271,7 +277,8 @@
 			"first_name": "Marsh",
 			"last_name": "Wale",
 			"avatar": "https://i.pravatar.cc/150?img=15",
-		    	"review":"Test Review"
+		    	"review_title":"Test Review",
+		    	"review_text": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Unde soluta omnis reprehenderit!"
 	        
 	    }
 	    
