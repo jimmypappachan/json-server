@@ -1,87 +1,68 @@
 {
-  "data": [
-    {
-      "name": "January",
-      "InActive Users": 4,
-      "Active Users": 3,
-      "Total Users": 7
-    },
-    {
-      "name": "February",
-      "InActive Users": 3,
-      "Active Users": 1,
-      "Total Users": 4
-    },
-    {
-      "name": "March",
-      "InActive Users": 2,
-      "Active Users": 9,
-      "Total Users": 11
-    },
-    {
-      "name": "April",
-      "InActive Users": 2,
-      "Active Users": 8,
-      "Total Users": 10
-    },
-    {
-      "name": "May",
-      "InActive Users": 1,
-      "Active Users": 10,
-      "Total Users": 11
-    }
-  ],
-  "email": [
-    {
-      "1": [
-        {
-          "serv_name": "Registration Confirmation",
-          "email_content": "Hello @@cus_name@@<br>\r\nThank you for being with us. Your registration has been received with the following details.<br><br>\r\nCustomer ID   : @@cus_id@@<br>\r\nName          : @@cus_name@@<br>\r\nCompany Name  : @@cus_company_name@@<br><br>\r\nYour User name and Password will be sent to you shortly after validation. We are looking for an great opportunities to do long term business with you.<br>\r\n\r\nNote: You have received this email because you have registered with us and opted for receiving emails as per our privacy policy and terms.<br><br>\r\nWith Thanks<br>\r\nLogimax",
-          "email_signature": "User registration Request                           "
-        }
-      ],
-      "2": [
-        {
-          "serv_name": "Customer Activation",
-          "email_content": "Your account is @@cus_active@@ <br>\r\n<br>\r\nPlease login with the details in mobile app\r\n<br><br>\r\nThanks <br>\r\n- Logimax",
-          "email_signature": "Your Account Status with Logimax           "
-        }
-      ],
-      "3": [
-        {
-          "serv_name": "Customer Update",
-          "email_content": "our account is updated with the following details.<br><br> \r\n\r\nUser Name     : @@cus_login_name@@<br>\r\nPassword      : @@cus_login_password@@<br> \r\n<br>\r\nThanks<br>\r\n- Logimax",
-          "email_signature": "Login detail updates from Logimax.              "
-        }
-      ],
-      "4": [
-        {
-          "serv_name": "Booking",
-          "email_content": "<!DOCTYPE html>\r\n<html>\r\n<head>\r\n<style>\r\ntable {\r\n    font-family: arial, sans-serif;\r\n    border-collapse: collapse;\r\n    width: 100%;\r\n}\r\n\r\ntd, th {\r\n    border: 1px solid #dddddd;\r\n    text-align: left;\r\n    padding: 8px;\r\n\r\n}\r\n<\/style>\r\n<\/head>\r\n<body>\r\nDear @@book_cusid@@, your booking details and status as follows, <br><br\/>\r\n<table>\r\n  <tr>\r\n    <th>Booking No<\/th>\r\n    <th>Book Type<\/th>\r\n    <th>Commodity<\/th>\r\n    <th>Rate<\/th>\r\n    <th>Qty<\/th>\r\n    <th>Status<\/th>\r\n  <\/tr>\r\n  <tr>\r\n    <td>@@book_no@@<\/td>\r\n   <td>@@book_type@@<\/td>\r\n    <td>@@book_comid@@<\/td>\r\n    <td>@@book_rate@@<\/td>\r\n    <td>@@book_qty@@<\/td>\r\n    <td>@@book_status@@<\/td>\r\n  <\/tr>\r\n  \r\n<\/table><br>\r\nThanks<br>\r\n- Logimax\r\n<\/body>\r\n<\/html>",
-          "email_signature": "Booking Status From Logimax         "
-        }
-      ],
-      "5": [
-        {
-          "serv_name": "Booking Confirm\/Reject",
-          "email_content": "<!DOCTYPE html>\r\n<html>\r\n<head>\r\n<style>\r\ntable {\r\n    font-family: arial, sans-serif;\r\n    border-collapse: collapse;\r\n    width: 100%;\r\n}\r\n\r\ntd, th {\r\n    border: 1px solid #dddddd;\r\n    text-align: left;\r\n    padding: 8px;\r\n\r\n}\r\n<\/style>\r\n<\/head>\r\n<body>\r\nDear @@book_cusid@@, your booking details and status as follows, <br><br\/>\r\n<table>\r\n  <tr>\r\n    <th>Booking No<\/th>\r\n    <th>Book Type<\/th>\r\n    <th>Commodity<\/th>\r\n    <th>Rate<\/th>\r\n    <th>Qty<\/th>\r\n    <th>Status<\/th>\r\n  <\/tr>\r\n  <tr>\r\n    <td>@@book_no@@<\/td>\r\n    <td>@@book_type@@<\/td>\r\n    <td>@@book_comid@@<\/td>\r\n    <td>@@book_rate@@<\/td>\r\n    <td>@@book_qty@@<\/td>\r\n    <td>@@book_status@@<\/td>\r\n  <\/tr>\r\n  \r\n<\/table><br>\r\nThanks<br>\r\n- Logimax\r\n<\/body>\r\n<\/html>",
-          "email_signature": "Booking status from Logimax    "
-        }
-      ],
-      "6": [
-        {
-          "serv_name": "Delivery",
-          "email_content": "<!DOCTYPE html>\r\n<html>\r\n<head>\r\n<style>\r\ntable {\r\n    font-family: arial, sans-serif;\r\n    border-collapse: collapse;\r\n    width: 100%;\r\n}\r\n\r\ntd, th {\r\n    border: 1px solid #dddddd;\r\n    text-align: left;\r\n    padding: 8px;\r\n\r\n}\r\n<\/style>\r\n<\/head>\r\n<body>\r\nHello @@cus_name@@,\r\nYour item(s) delivered with the following details.<br><br\/>\r\n<table>\r\n  <tr>\r\n    <th>Booking No<\/th>\r\n    <th>Book Type<\/th>\r\n     <th>Commodity<\/th>\r\n    <th>Rate<\/th>\r\n    <th>Del.Qty<\/th>\r\n   <\/tr>\r\n  <tr>\r\n    <td>@@invoice_bookno@@<\/td>\r\n    <td>@@book_type@@<\/td>\r\n    <td>@@com_name@@<\/td>\r\n    <td>@@book_rate@@<\/td>\r\n    <td>@@invoice_deliveryqty@@<\/td>\r\n    \r\n  <\/tr>\r\n  \r\n<\/table><br>\r\nThanks<br>\r\n- Logimax\r\n<\/body>\r\n<\/html>\r\n",
-          "email_signature": "Delivery details from Logimax    "
-        }
-      ],
-      "7": [
-        {
-          "serv_name": "Forgot Password",
-          "email_content": "Dear Customer<br>\r\n <br>Your login details are given below.<br><br>\r\n \r\n User Name : @@cus_login_name@@<br>\r\n Password : @@cus_login_password@@<br>\r\n <br>\r\n \r\n Thank you<br>\r\n Logimax. ",
-          "email_signature": "Online account login details at Logimax.        "
-        }
-      ]
-    }
-  ]
+	"data": [{
+			"name": "January",
+			"InActive Users": 4,
+			"Active Users": 3,
+			"Total Users": 7
+		},
+		{
+			"name": "February",
+			"InActive Users": 3,
+			"Active Users": 1,
+			"Total Users": 4
+		},
+		{
+			"name": "March",
+			"InActive Users": 2,
+			"Active Users": 9,
+			"Total Users": 11
+		},
+		{
+			"name": "April",
+			"InActive Users": 2,
+			"Active Users": 8,
+			"Total Users": 10
+		},
+		{
+			"name": "May",
+			"InActive Users": 1,
+			"Active Users": 10,
+			"Total Users": 11
+		}
+	],
+	"1": [{
+		"serv_name": "Registration Confirmation",
+		"email_content": "Hello @@cus_name@@<br>\r\nThank you for being with us. Your registration has been received with the following details.<br><br>\r\nCustomer ID   : @@cus_id@@<br>\r\nName          : @@cus_name@@<br>\r\nCompany Name  : @@cus_company_name@@<br><br>\r\nYour User name and Password will be sent to you shortly after validation. We are looking for an great opportunities to do long term business with you.<br>\r\n\r\nNote: You have received this email because you have registered with us and opted for receiving emails as per our privacy policy and terms.<br><br>\r\nWith Thanks<br>\r\nLogimax",
+		"email_signature": "User registration Request                           "
+	}],
+	"2": [{
+		"serv_name": "Customer Activation",
+		"email_content": "Your account is @@cus_active@@ <br>\r\n<br>\r\nPlease login with the details in mobile app\r\n<br><br>\r\nThanks <br>\r\n- Logimax",
+		"email_signature": "Your Account Status with Logimax           "
+	}],
+	"3": [{
+		"serv_name": "Customer Update",
+		"email_content": "our account is updated with the following details.<br><br> \r\n\r\nUser Name     : @@cus_login_name@@<br>\r\nPassword      : @@cus_login_password@@<br> \r\n<br>\r\nThanks<br>\r\n- Logimax",
+		"email_signature": "Login detail updates from Logimax.              "
+	}],
+	"4": [{
+		"serv_name": "Booking",
+		"email_content": "<!DOCTYPE html>\r\n<html>\r\n<head>\r\n<style>\r\ntable {\r\n    font-family: arial, sans-serif;\r\n    border-collapse: collapse;\r\n    width: 100%;\r\n}\r\n\r\ntd, th {\r\n    border: 1px solid #dddddd;\r\n    text-align: left;\r\n    padding: 8px;\r\n\r\n}\r\n<\/style>\r\n<\/head>\r\n<body>\r\nDear @@book_cusid@@, your booking details and status as follows, <br><br\/>\r\n<table>\r\n  <tr>\r\n    <th>Booking No<\/th>\r\n    <th>Book Type<\/th>\r\n    <th>Commodity<\/th>\r\n    <th>Rate<\/th>\r\n    <th>Qty<\/th>\r\n    <th>Status<\/th>\r\n  <\/tr>\r\n  <tr>\r\n    <td>@@book_no@@<\/td>\r\n   <td>@@book_type@@<\/td>\r\n    <td>@@book_comid@@<\/td>\r\n    <td>@@book_rate@@<\/td>\r\n    <td>@@book_qty@@<\/td>\r\n    <td>@@book_status@@<\/td>\r\n  <\/tr>\r\n  \r\n<\/table><br>\r\nThanks<br>\r\n- Logimax\r\n<\/body>\r\n<\/html>",
+		"email_signature": "Booking Status From Logimax         "
+	}],
+	"5": [{
+		"serv_name": "Booking Confirm\/Reject",
+		"email_content": "<!DOCTYPE html>\r\n<html>\r\n<head>\r\n<style>\r\ntable {\r\n    font-family: arial, sans-serif;\r\n    border-collapse: collapse;\r\n    width: 100%;\r\n}\r\n\r\ntd, th {\r\n    border: 1px solid #dddddd;\r\n    text-align: left;\r\n    padding: 8px;\r\n\r\n}\r\n<\/style>\r\n<\/head>\r\n<body>\r\nDear @@book_cusid@@, your booking details and status as follows, <br><br\/>\r\n<table>\r\n  <tr>\r\n    <th>Booking No<\/th>\r\n    <th>Book Type<\/th>\r\n    <th>Commodity<\/th>\r\n    <th>Rate<\/th>\r\n    <th>Qty<\/th>\r\n    <th>Status<\/th>\r\n  <\/tr>\r\n  <tr>\r\n    <td>@@book_no@@<\/td>\r\n    <td>@@book_type@@<\/td>\r\n    <td>@@book_comid@@<\/td>\r\n    <td>@@book_rate@@<\/td>\r\n    <td>@@book_qty@@<\/td>\r\n    <td>@@book_status@@<\/td>\r\n  <\/tr>\r\n  \r\n<\/table><br>\r\nThanks<br>\r\n- Logimax\r\n<\/body>\r\n<\/html>",
+		"email_signature": "Booking status from Logimax    "
+	}],
+	"6": [{
+		"serv_name": "Delivery",
+		"email_content": "<!DOCTYPE html>\r\n<html>\r\n<head>\r\n<style>\r\ntable {\r\n    font-family: arial, sans-serif;\r\n    border-collapse: collapse;\r\n    width: 100%;\r\n}\r\n\r\ntd, th {\r\n    border: 1px solid #dddddd;\r\n    text-align: left;\r\n    padding: 8px;\r\n\r\n}\r\n<\/style>\r\n<\/head>\r\n<body>\r\nHello @@cus_name@@,\r\nYour item(s) delivered with the following details.<br><br\/>\r\n<table>\r\n  <tr>\r\n    <th>Booking No<\/th>\r\n    <th>Book Type<\/th>\r\n     <th>Commodity<\/th>\r\n    <th>Rate<\/th>\r\n    <th>Del.Qty<\/th>\r\n   <\/tr>\r\n  <tr>\r\n    <td>@@invoice_bookno@@<\/td>\r\n    <td>@@book_type@@<\/td>\r\n    <td>@@com_name@@<\/td>\r\n    <td>@@book_rate@@<\/td>\r\n    <td>@@invoice_deliveryqty@@<\/td>\r\n    \r\n  <\/tr>\r\n  \r\n<\/table><br>\r\nThanks<br>\r\n- Logimax\r\n<\/body>\r\n<\/html>\r\n",
+		"email_signature": "Delivery details from Logimax    "
+	}],
+	"7": [{
+		"serv_name": "Forgot Password",
+		"email_content": "Dear Customer<br>\r\n <br>Your login details are given below.<br><br>\r\n \r\n User Name : @@cus_login_name@@<br>\r\n Password : @@cus_login_password@@<br>\r\n <br>\r\n \r\n Thank you<br>\r\n Logimax. ",
+		"email_signature": "Online account login details at Logimax.        "
+	}]
 }
