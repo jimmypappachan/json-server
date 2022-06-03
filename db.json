@@ -1,68 +1,278 @@
 {
-	"data": [{
-			"name": "January",
-			"InActive Users": 4,
-			"Active Users": 3,
-			"Total Users": 7
-		},
-		{
-			"name": "February",
-			"InActive Users": 3,
-			"Active Users": 1,
-			"Total Users": 4
-		},
-		{
-			"name": "March",
-			"InActive Users": 2,
-			"Active Users": 9,
-			"Total Users": 11
-		},
-		{
-			"name": "April",
-			"InActive Users": 2,
-			"Active Users": 8,
-			"Total Users": 10
-		},
-		{
-			"name": "May",
-			"InActive Users": 1,
-			"Active Users": 10,
-			"Total Users": 11
-		}
-	],
-	"1": [{
-		"serv_name": "Registration Confirmation",
-		"email_content": "Hello @@cus_name@@<br>\r\nThank you for being with us. Your registration has been received with the following details.<br><br>\r\nCustomer ID   : @@cus_id@@<br>\r\nName          : @@cus_name@@<br>\r\nCompany Name  : @@cus_company_name@@<br><br>\r\nYour User name and Password will be sent to you shortly after validation. We are looking for an great opportunities to do long term business with you.<br>\r\n\r\nNote: You have received this email because you have registered with us and opted for receiving emails as per our privacy policy and terms.<br><br>\r\nWith Thanks<br>\r\nLogimax",
-		"email_signature": "User registration Request                           "
-	}],
-	"2": [{
-		"serv_name": "Customer Activation",
-		"email_content": "Your account is @@cus_active@@ <br>\r\n<br>\r\nPlease login with the details in mobile app\r\n<br><br>\r\nThanks <br>\r\n- Logimax",
-		"email_signature": "Your Account Status with Logimax           "
-	}],
-	"3": [{
-		"serv_name": "Customer Update",
-		"email_content": "our account is updated with the following details.<br><br> \r\n\r\nUser Name     : @@cus_login_name@@<br>\r\nPassword      : @@cus_login_password@@<br> \r\n<br>\r\nThanks<br>\r\n- Logimax",
-		"email_signature": "Login detail updates from Logimax.              "
-	}],
-	"4": [{
-		"serv_name": "Booking",
-		"email_content": "<!DOCTYPE html>\r\n<html>\r\n<head>\r\n<style>\r\ntable {\r\n    font-family: arial, sans-serif;\r\n    border-collapse: collapse;\r\n    width: 100%;\r\n}\r\n\r\ntd, th {\r\n    border: 1px solid #dddddd;\r\n    text-align: left;\r\n    padding: 8px;\r\n\r\n}\r\n<\/style>\r\n<\/head>\r\n<body>\r\nDear @@book_cusid@@, your booking details and status as follows, <br><br\/>\r\n<table>\r\n  <tr>\r\n    <th>Booking No<\/th>\r\n    <th>Book Type<\/th>\r\n    <th>Commodity<\/th>\r\n    <th>Rate<\/th>\r\n    <th>Qty<\/th>\r\n    <th>Status<\/th>\r\n  <\/tr>\r\n  <tr>\r\n    <td>@@book_no@@<\/td>\r\n   <td>@@book_type@@<\/td>\r\n    <td>@@book_comid@@<\/td>\r\n    <td>@@book_rate@@<\/td>\r\n    <td>@@book_qty@@<\/td>\r\n    <td>@@book_status@@<\/td>\r\n  <\/tr>\r\n  \r\n<\/table><br>\r\nThanks<br>\r\n- Logimax\r\n<\/body>\r\n<\/html>",
-		"email_signature": "Booking Status From Logimax         "
-	}],
-	"5": [{
-		"serv_name": "Booking Confirm\/Reject",
-		"email_content": "<!DOCTYPE html>\r\n<html>\r\n<head>\r\n<style>\r\ntable {\r\n    font-family: arial, sans-serif;\r\n    border-collapse: collapse;\r\n    width: 100%;\r\n}\r\n\r\ntd, th {\r\n    border: 1px solid #dddddd;\r\n    text-align: left;\r\n    padding: 8px;\r\n\r\n}\r\n<\/style>\r\n<\/head>\r\n<body>\r\nDear @@book_cusid@@, your booking details and status as follows, <br><br\/>\r\n<table>\r\n  <tr>\r\n    <th>Booking No<\/th>\r\n    <th>Book Type<\/th>\r\n    <th>Commodity<\/th>\r\n    <th>Rate<\/th>\r\n    <th>Qty<\/th>\r\n    <th>Status<\/th>\r\n  <\/tr>\r\n  <tr>\r\n    <td>@@book_no@@<\/td>\r\n    <td>@@book_type@@<\/td>\r\n    <td>@@book_comid@@<\/td>\r\n    <td>@@book_rate@@<\/td>\r\n    <td>@@book_qty@@<\/td>\r\n    <td>@@book_status@@<\/td>\r\n  <\/tr>\r\n  \r\n<\/table><br>\r\nThanks<br>\r\n- Logimax\r\n<\/body>\r\n<\/html>",
-		"email_signature": "Booking status from Logimax    "
-	}],
-	"6": [{
-		"serv_name": "Delivery",
-		"email_content": "<!DOCTYPE html>\r\n<html>\r\n<head>\r\n<style>\r\ntable {\r\n    font-family: arial, sans-serif;\r\n    border-collapse: collapse;\r\n    width: 100%;\r\n}\r\n\r\ntd, th {\r\n    border: 1px solid #dddddd;\r\n    text-align: left;\r\n    padding: 8px;\r\n\r\n}\r\n<\/style>\r\n<\/head>\r\n<body>\r\nHello @@cus_name@@,\r\nYour item(s) delivered with the following details.<br><br\/>\r\n<table>\r\n  <tr>\r\n    <th>Booking No<\/th>\r\n    <th>Book Type<\/th>\r\n     <th>Commodity<\/th>\r\n    <th>Rate<\/th>\r\n    <th>Del.Qty<\/th>\r\n   <\/tr>\r\n  <tr>\r\n    <td>@@invoice_bookno@@<\/td>\r\n    <td>@@book_type@@<\/td>\r\n    <td>@@com_name@@<\/td>\r\n    <td>@@book_rate@@<\/td>\r\n    <td>@@invoice_deliveryqty@@<\/td>\r\n    \r\n  <\/tr>\r\n  \r\n<\/table><br>\r\nThanks<br>\r\n- Logimax\r\n<\/body>\r\n<\/html>\r\n",
-		"email_signature": "Delivery details from Logimax    "
-	}],
-	"7": [{
-		"serv_name": "Forgot Password",
-		"email_content": "Dear Customer<br>\r\n <br>Your login details are given below.<br><br>\r\n \r\n User Name : @@cus_login_name@@<br>\r\n Password : @@cus_login_password@@<br>\r\n <br>\r\n \r\n Thank you<br>\r\n Logimax. ",
-		"email_signature": "Online account login details at Logimax.        "
-	}]
+  "contacts": [
+    {
+      "id": "93d61c35-3886-48e5-b6e5-d4df0c616e24",
+      "name": "Jimmy Pappachan",
+      "phone": "7356693490",
+      "email": "jimmy3728@gmail.com"
+    },
+    {
+      "id": "35765a92-e50d-4e2f-996a-97bda1b61b7a",
+      "name": "Jimmy Pappachan",
+      "phone": "7356693491",
+      "email": "jimmy3728@gmail.com"
+    },
+    {
+      "id": "3b968a23-986b-4b76-9fb2-03b615496cf7",
+      "name": "Jimmy Pappachan",
+      "phone": "7356693491",
+      "email": "hgyjgb@jknjnk.gjh"
+    }
+  ],
+  "active_users": [
+    {
+      "id": 1,
+      "email": "george.bluth@reqres.in",
+      "first_name": "George",
+      "last_name": "Bluth",
+      "avatar": "https://i.pravatar.cc/150?img=1"
+    },
+    {
+      "id": 2,
+      "email": "janet.weaver@reqres.in",
+      "first_name": "Janet",
+      "last_name": "Weaver",
+      "avatar": "https://i.pravatar.cc/150?img=2"
+    },
+    {
+      "id": 3,
+      "email": "emma.wong@reqres.in",
+      "first_name": "Emma",
+      "last_name": "Wong",
+      "avatar": "https://i.pravatar.cc/150?img=3"
+    },
+    {
+      "id": 4,
+      "email": "eve.holt@reqres.in",
+      "first_name": "Eve",
+      "last_name": "Holt",
+      "avatar": "https://i.pravatar.cc/150?img=4"
+    },
+    {
+      "id": 5,
+      "email": "charles.morris@reqres.in",
+      "first_name": "Charles",
+      "last_name": "Morris",
+      "avatar": "https://i.pravatar.cc/150?img=5"
+    },
+    {
+      "id": 6,
+      "email": "tracey.ramos@reqres.in",
+      "first_name": "Tracey",
+      "last_name": "Ramos",
+      "avatar": "https://i.pravatar.cc/150?img=6"
+    },
+    {
+      "id": 7,
+      "email": "michael.lawson@reqres.in",
+      "first_name": "Michael",
+      "last_name": "Lawson",
+      "avatar": "https://i.pravatar.cc/150?img=7"
+    },
+    {
+      "id": 8,
+      "email": "lindsay.ferguson@reqres.in",
+      "first_name": "Lindsay",
+      "last_name": "Ferguson",
+      "avatar": "https://i.pravatar.cc/150?img=8"
+    },
+    {
+      "id": 9,
+      "email": "tobias.funke@reqres.in",
+      "first_name": "Tobias",
+      "last_name": "Funke",
+      "avatar": "https://i.pravatar.cc/150?img=9"
+    },
+    {
+      "id": 10,
+      "email": "byron.fields@reqres.in",
+      "first_name": "Byron",
+      "last_name": "Fields",
+      "avatar": "https://i.pravatar.cc/150?img=10"
+    },
+    {
+      "id": 11,
+      "email": "george.edwards@reqres.in",
+      "first_name": "George",
+      "last_name": "Edwards",
+      "avatar": "https://i.pravatar.cc/150?img=11"
+    },
+    {
+      "id": 12,
+      "email": "rachel.howell@reqres.in",
+      "first_name": "Rachel",
+      "last_name": "Howell",
+      "avatar": "https://i.pravatar.cc/150?img=12"
+    },
+    {
+      "id": 13,
+      "email": "jimmypappachan@outlook.com",
+      "first_name": "Jimmy",
+      "last_name": "Pappachan",
+      "avatar": "https://i.pravatar.cc/150?img=13"
+    }
+  ],
+  "inactive_users": [
+    {
+      "id": 21,
+      "email": "Jorge.bluth@reqres.in",
+      "first_name": "Jorge",
+      "last_name": "Bluth",
+      "avatar": "https://i.pravatar.cc/150?img=21"
+    },
+    {
+      "id": 22,
+      "email": "lanet.weaver@reqres.in",
+      "first_name": "lanet",
+      "last_name": "Weaver",
+      "avatar": "https://i.pravatar.cc/150?img=22"
+    },
+    {
+      "id": 23,
+      "email": "emma.wong@reqres.in",
+      "first_name": "Emma",
+      "last_name": "Wong",
+      "avatar": "https://i.pravatar.cc/150?img=23"
+    },
+    {
+      "id": 24,
+      "email": "Steve.holt@reqres.in",
+      "first_name": "Steve",
+      "last_name": "Holt",
+      "avatar": "https://i.pravatar.cc/150?img=24"
+    },
+    {
+      "id": 25,
+      "email": "prince.morris@reqres.in",
+      "first_name": "Prince",
+      "last_name": "Morris",
+      "avatar": "https://i.pravatar.cc/150?img=25"
+    },
+    {
+      "id": 26,
+      "email": "Sergio.ramos@reqres.in",
+      "first_name": "Sergio",
+      "last_name": "Ramos",
+      "avatar": "https://i.pravatar.cc/150?img=26"
+    },
+    {
+      "id": 27,
+      "email": "michael.lawson@reqres.in",
+      "first_name": "Michael",
+      "last_name": "Lawson",
+      "avatar": "https://i.pravatar.cc/150?img=27"
+    },
+    {
+      "id": 28,
+      "email": "Fermison.ferguson@reqres.in",
+      "first_name": "Fermison",
+      "last_name": "Ferguson",
+      "avatar": "https://i.pravatar.cc/150?img=28"
+    },
+    {
+      "id": 31,
+      "email": "Mike.funke@reqres.in",
+      "first_name": "Mike",
+      "last_name": "Funke",
+      "avatar": "https://i.pravatar.cc/150?img=31"
+    }
+  ],
+  "data": [
+    {
+      "name": "January",
+      "InActive Users": 4,
+      "Active Users": 3,
+      "Total Users": 7
+    },
+    {
+      "name": "February",
+      "InActive Users": 3,
+      "Active Users": 1,
+      "Total Users": 4
+    },
+    {
+      "name": "March",
+      "InActive Users": 2,
+      "Active Users": 9,
+      "Total Users": 11
+    },
+    {
+      "name": "April",
+      "InActive Users": 2,
+      "Active Users": 8,
+      "Total Users": 10
+    },
+    {
+      "name": "May",
+      "InActive Users": 1,
+      "Active Users": 10,
+      "Total Users": 11
+    }
+  ],
+  "reviews": [
+    {
+      "first_name": "Emma",
+      "last_name": "Wong",
+      "avatar": "https://i.pravatar.cc/150?img=3",
+      "review_title": "Test Review",
+      "review_text": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Unde soluta omnis reprehenderit!",
+      "stars":"5"
+    },
+    {
+      "first_name": "John",
+      "last_name": "Strong",
+      "avatar": "https://i.pravatar.cc/150?img=5",
+      "review_title": "Test Review",
+      "review_text": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Unde soluta omnis reprehenderit!",
+      "stars":"2"
+    },
+    {
+      "first_name": "Willi",
+      "last_name": "Wong",
+      "avatar": "https://i.pravatar.cc/150?img=4",
+      "review_title": "Test Review",
+      "review_text": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Unde soluta omnis reprehenderit!",
+      "stars":"5"
+    },
+    {
+      "first_name": "James",
+      "last_name": "Jamieson",
+      "avatar": "https://i.pravatar.cc/150?img=14",
+      "review_title": "Test Review",
+      "review_text": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Unde soluta omnis reprehenderit!",
+      "stars":"3"
+    },
+    {
+      "first_name": "Sherian",
+      "last_name": "Willian",
+      "avatar": "https://i.pravatar.cc/150?img=19",
+      "review_title": "Test Review",
+      "review_text": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Unde soluta omnis reprehenderit!",
+      "stars":"4"
+    },
+    {
+      "first_name": "Johns",
+      "last_name": "Adam",
+      "avatar": "https://i.pravatar.cc/150?img=9",
+      "review_title": "Test Review",
+      "review_text": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Unde soluta omnis reprehenderit!",
+      "stars":"5"
+    },
+    {
+      "first_name": "David",
+      "last_name": "Mark",
+      "avatar": "https://i.pravatar.cc/150?img=23",
+      "review_title": "Test Review",
+      "review_text": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Unde soluta omnis reprehenderit!",
+      "stars":"4"
+    },
+    {
+      "first_name": "Marsh",
+      "last_name": "Wale",
+      "avatar": "https://i.pravatar.cc/150?img=15",
+      "review_title": "Test Review",
+      "review_text": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Unde soluta omnis reprehenderit!",
+      "stars":"4"
+    }
+  ]
 }
